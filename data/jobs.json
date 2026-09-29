@@ -1,0 +1,46 @@
+[
+  {
+    "id": "welder-cm-001",
+    "title": "Welder",
+    "department": "Contract Manufacturing",
+    "location": "Sioux City, IA (Plant 1)",
+    "type": "Full-time",
+    "summary": "MIG/TIG welding on structural and fabricated assemblies. Sample listing for the redesign. Confirm openings on the official careers page before applying.",
+    "applyEmail": "recruiting@siouxcityfoundry.com",
+    "published": true,
+    "posted": "2026-08-01"
+  },
+  {
+    "id": "rebar-fab-002",
+    "title": "Rebar Fabricator",
+    "department": "Rebar",
+    "location": "Sioux City, IA (Plant 1)",
+    "type": "Full-time",
+    "summary": "Cut, bend, and prep black and epoxy-coated reinforcing steel. Sample listing. Real roles are published through the company employment flow.",
+    "applyEmail": "recruiting@siouxcityfoundry.com",
+    "published": true,
+    "posted": "2026-07-20"
+  },
+  {
+    "id": "foundry-molder-003",
+    "title": "Foundry Molder / Melter Helper",
+    "department": "Foundry",
+    "location": "South Sioux City, NE (Plant 2)",
+    "type": "Full-time",
+    "summary": "Support green sand and no-bake molding and melt floor work for gray and ductile iron. Sample listing for demo purposes only.",
+    "applyHref": "https://www.siouxcityfoundry.com/employ.lasso",
+    "published": true,
+    "posted": "2026-09-01"
+  },
+  {
+    "id": "warehouse-picker-004",
+    "title": "Warehouse Material Handler",
+    "department": "Steel Service Center",
+    "location": "Sioux City, IA (Plant 1)",
+    "type": "Full-time",
+    "summary": "Unpublished example. Set published to true when this role should appear on Careers. Approximates the FileMaker checkbox go-live pattern.",
+    "applyEmail": "recruiting@siouxcityfoundry.com",
+    "published": false,
+    "posted": "2026-09-10"
+  }
+]

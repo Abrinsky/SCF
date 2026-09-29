@@ -22,6 +22,7 @@
       divisions: ["/SCF/divisions", "/SCF/divisions.html"],
       stock: ["/SCF/stock-book", "/SCF/stock-book.html"],
       about: ["/SCF/about", "/SCF/about.html"],
+      news: ["/SCF/news", "/SCF/news.html"],
       careers: ["/SCF/careers", "/SCF/careers.html"],
       contact: ["/SCF/contact", "/SCF/contact.html"]
     };

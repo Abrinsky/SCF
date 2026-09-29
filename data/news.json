@@ -1,0 +1,37 @@
+[
+  {
+    "id": "heritage-1871",
+    "title": "Founded November 1871 in Sioux City",
+    "date": "1871-11-01",
+    "summary": "Sioux City Foundry Co. began at Main and Seventh. More than 150 years later the family-owned shop still pours, cuts, and ships from Iowa and Nebraska plants.",
+    "href": "/SCF/about.html"
+  },
+  {
+    "id": "manufacturing-marvels",
+    "title": "Manufacturing Marvels historical spotlight",
+    "date": "2015-06-01",
+    "summary": "A past national media feature highlighted the foundry and metal shop story. Sample note: historical spotlight only, not a current campaign claim.",
+    "href": "/SCF/about.html"
+  },
+  {
+    "id": "wine-on-the-wall",
+    "title": "Wine On the Wall specialty line",
+    "date": "2024-03-12",
+    "summary": "Stainless wine storage systems remain available as a specialty product line alongside the four live metal divisions.",
+    "href": "https://www.wineonthewall.com"
+  },
+  {
+    "id": "cfa-safety-2014",
+    "title": "CFA Zero Lost Days Safety Award (2014)",
+    "date": "2014-12-15",
+    "summary": "Recognized by the Central Fabricators Association for zero lost days due to injury in 2014. Public award already listed on About.",
+    "href": "/SCF/about.html"
+  },
+  {
+    "id": "sample-community",
+    "title": "Sample: plants and community",
+    "date": "2026-01-15",
+    "summary": "Sample placeholder. Edit or remove this entry in data/news.json. Use it as a template for plant tours, hiring drives, or local partnerships.",
+    "href": "/SCF/news.html"
+  }
+]

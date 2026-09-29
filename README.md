@@ -20,12 +20,36 @@ This repository hosts a **sample marketing site redesign** for [Sioux City Found
 | Divisions | `divisions.html` |
 | Stock Book | `stock-book.html` |
 | About | `about.html` |
+| News | `news.html` |
 | Careers | `careers.html` |
 | Contact | `contact.html` |
 
 ## Stack
 
-Static HTML, CSS, and a small JS nav helper. Official logos under `assets/`. Base path for GitHub Project Pages is `/SCF/`.
+Static HTML, CSS, and small JS helpers. Official logos under `assets/`. Content lists for news and jobs live under `data/` as JSON. Base path for GitHub Project Pages is `/SCF/`.
+
+## Editing news (JSON)
+
+Homepage strip and `news.html` both load `/SCF/data/news.json`.
+
+1. Open `data/news.json`.
+2. Add an object: `{ "id", "title", "date", "summary", "href", "image?" }` (`image` is optional).
+3. Use absolute site paths like `/SCF/about.html` for internal links, or full `https://...` URLs for external ones.
+4. Remove an object (or delete the file entry) to take it off the site.
+5. Commit and push to `main`. GitHub Pages redeploys.
+
+Dates sort newest first. Keep copy claim-safe (no invented certs or partnerships). Prefer periods/commas/parentheses over em/en dashes in user-facing text.
+
+## Editing jobs (JSON, Lasso-like publish flag)
+
+`careers.html` loads `/SCF/data/jobs.json` and shows **only** items with `"published": true`.
+
+1. Open `data/jobs.json`.
+2. Add: `{ "id", "title", "department", "location", "type", "summary", "applyEmail" or "applyHref", "published", "posted?" }`.
+3. Set `"published": true` to go live on the Careers page (sample stand-in for the FileMaker checkbox). Set `false` to hide without deleting.
+4. Commit and push to `main`.
+
+Seed data includes published sample roles plus one unpublished example so the pattern is obvious. Real hiring still goes through the [official employment page](https://www.siouxcityfoundry.com/employ.lasso).
 
 ## Official Stock Book
 
