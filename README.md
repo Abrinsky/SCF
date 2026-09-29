@@ -46,11 +46,10 @@ Dates sort newest first. Keep copy claim-safe (no invented certs or partnerships
 `careers.html` loads `/SCF/data/jobs.json` and shows **only** items with `"published": true`. Each published title links to the ungated local detail route `/SCF/job.html?id=...`; the detail page reads the same JSON file.
 
 1. Open `data/jobs.json`.
-2. Add: `{ "id", "title", "department", "location", "type", "summary", "detailHref", "detail?", "applyEmail" or "applyHref", "published", "posted?" }`. Use `detailHref` like `/SCF/job.html?id=your-id`; `detail.overview` and `detail.focusAreas` seed the local sample page.
+2. Add: `{ "id", "title", "department", "location", "type", "summary", "detailHref", "detail", "applyEmail", "applyHref", "published", "posted" }`. Use `detailHref` like `/SCF/job.html?id=your-id`; rich `detail` fields include `description`, `shift`, `supervisor`, `requiredExperience`, `otherRequirements`, `education`, `yearsExperience`, `payRate`, `requiredDocuments`, HR contact fields, and `notes`.
 3. Set `"published": true` to go live on the Careers page (sample stand-in for the FileMaker checkbox). Set `false` to hide without deleting.
-4. Commit and push to `main`.
-
-Seed data includes published sample roles plus one unpublished example so the pattern is obvious. Real hiring still goes through the [official employment page](https://www.siouxcityfoundry.com/employ.lasso).
+4. Keep pay copy labeled as sample, illustrative, or BOE-style demo. Real hiring still goes through the [official employment page](https://www.siouxcityfoundry.com/employ.lasso).
+5. Commit and push to `main`.
 
 ## Official Stock Book
 
