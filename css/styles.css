@@ -423,6 +423,15 @@ p { margin: 0 0 1rem; color: var(--muted); }
   padding: 1.35rem;
 }
 .side-panel h4 { color: #fff; margin-bottom: 0.5rem; }
+.div-media {
+  width: calc(100% + 2.7rem);
+  max-width: none;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  margin: -1.35rem -1.35rem 1.15rem;
+  border-bottom: 1px solid var(--line);
+  filter: saturate(0.82) contrast(1.05);
+}
 .phone-link {
   display: inline-block;
   font-size: 1.15rem;

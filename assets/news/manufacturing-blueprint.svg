@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" role="img" aria-labelledby="title desc">
+  <title id="title">Manufacturing blueprint motif</title>
+  <desc id="desc">Abstract blueprint grid with a steel gear</desc>
+  <rect width="640" height="240" fill="#0b0d10"/>
+  <path d="M0 40h640M0 80h640M0 120h640M0 160h640M0 200h640M40 0v240M80 0v240M120 0v240M160 0v240M200 0v240M240 0v240M280 0v240M320 0v240M360 0v240M400 0v240M440 0v240M480 0v240M520 0v240M560 0v240M600 0v240" stroke="#0080c0" stroke-opacity=".2"/>
+  <circle cx="320" cy="120" r="64" fill="#1e2430" stroke="#8a93a3" stroke-width="7"/>
+  <path d="m320 40 13 22 25-4 4 25 25 13-13 22 13 22-25 13-4 25-25-4-13 22-13-22-25 4-4-25-25-13 13-22-13-22 25-13 4-25 25 4z" fill="#8a93a3" fill-opacity=".65"/>
+  <circle cx="320" cy="120" r="28" fill="#0b0d10" stroke="#e8792f" stroke-width="6"/>
+  <path d="M468 120h110M522 66v108" stroke="#e8792f" stroke-width="4" stroke-opacity=".7"/>
+</svg>
