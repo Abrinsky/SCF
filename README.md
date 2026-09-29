@@ -21,6 +21,7 @@ This repository hosts a **sample marketing site redesign** for [Sioux City Found
 | Stock Book | `stock-book.html` |
 | About | `about.html` |
 | News | `news.html` |
+| News article | `news-article.html?id=...` |
 | Careers | `careers.html` |
 | Job detail | `job.html?id=...` |
 | Contact | `contact.html` |
@@ -31,13 +32,14 @@ Static HTML, CSS, and small JS helpers. Official logos under `assets/`. Content 
 
 ## Editing news (JSON)
 
-Homepage strip and `news.html` both load `/SCF/data/news.json`.
+Homepage strip and `news.html` both load `/SCF/data/news.json`. Article pages load the same file via `/SCF/news-article.html?id=...`.
 
 1. Open `data/news.json`.
-2. Add an object: `{ "id", "title", "date", "summary", "href", "image?" }` (`image` is optional).
-3. Use absolute site paths like `/SCF/about.html` for internal links, or full `https://...` URLs for external ones.
-4. Remove an object (or delete the file entry) to take it off the site.
-5. Commit and push to `main`. GitHub Pages redeploys.
+2. Add an object: `{ "id", "title", "date", "summary", "href", "image?", "detail?", "external?" }`.
+3. For local articles set `href` to `/SCF/news-article.html?id=your-id` and fill `detail` with `eyebrow`, `lead`, `body` (array of paragraphs), `highlights`, `asideTitle`, `asideLinks`, and `notes`.
+4. For the Wine On the Wall specialty card, point `href` at the Abrinsky sample site (`https://abrinsky.github.io/WineOnTheWall/`) and set `"external": true`. Use a photo copied from that sample's `assets/` for `image`.
+5. Prefer real photos under `assets/news/` over decorative SVGs.
+6. Remove an object to take it off the site, then commit and push to `main`.
 
 Dates sort newest first. Keep copy claim-safe (no invented certs or partnerships). Prefer periods/commas/parentheses over em/en dashes in user-facing text.
 

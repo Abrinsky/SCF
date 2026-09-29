@@ -22,7 +22,7 @@
       divisions: ["/SCF/divisions", "/SCF/divisions.html"],
       stock: ["/SCF/stock-book", "/SCF/stock-book.html"],
       about: ["/SCF/about", "/SCF/about.html"],
-      news: ["/SCF/news", "/SCF/news.html"],
+      news: ["/SCF/news", "/SCF/news.html", "/SCF/news-article", "/SCF/news-article.html"],
       careers: ["/SCF/careers", "/SCF/careers.html"],
       contact: ["/SCF/contact", "/SCF/contact.html"]
     };

@@ -16,7 +16,11 @@
     return months[m] + " " + d + ", " + y;
   }
 
-  function resolveHref(href) {
+  function resolveHref(item) {
+    var href = item && item.href;
+    if (!href && item && item.id) {
+      return "/SCF/news-article.html?id=" + encodeURIComponent(item.id);
+    }
     if (!href) return "/SCF/news.html";
     if (/^https?:\/\//i.test(href) || /^mailto:/i.test(href)) return href;
     if (href.charAt(0) === "/") return href;
@@ -28,8 +32,8 @@
   }
 
   function cardHtml(item) {
-    var href = resolveHref(item.href);
-    var external = isExternal(href);
+    var href = resolveHref(item);
+    var external = isExternal(href) || !!item.external;
     var target = external ? ' target="_blank" rel="noopener"' : "";
     var dateLabel = formatDate(item.date);
     var img = item.image
@@ -42,15 +46,15 @@
           (dateLabel ? '<time class="news-date" datetime="' + item.date + '">' + dateLabel + "</time>" : "") +
           "<h3>" + escapeHtml(item.title || "Untitled") + "</h3>" +
           "<p>" + escapeHtml(item.summary || "") + "</p>" +
-          '<span class="news-card-cta">' + (external ? "Open link" : "Read more") + "</span>" +
+          '<span class="news-card-cta">' + (external ? "Open sample site" : "Read article") + "</span>" +
         "</div>" +
       "</a>"
     );
   }
 
   function listItemHtml(item) {
-    var href = resolveHref(item.href);
-    var external = isExternal(href);
+    var href = resolveHref(item);
+    var external = isExternal(href) || !!item.external;
     var target = external ? ' target="_blank" rel="noopener"' : "";
     var dateLabel = formatDate(item.date);
     return (
@@ -61,6 +65,7 @@
         "<div>" +
           "<h3><a href=\"" + href + "\"" + target + ">" + escapeHtml(item.title || "Untitled") + "</a></h3>" +
           "<p>" + escapeHtml(item.summary || "") + "</p>" +
+          '<p class="news-list-cta">' + (external ? "Opens Wine On the Wall sample site" : "Opens sample article page") + "</p>" +
         "</div>" +
       "</article>"
     );

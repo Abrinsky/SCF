@@ -4,39 +4,126 @@
     "title": "Founded November 1871 in Sioux City",
     "date": "1871-11-01",
     "summary": "Sioux City Foundry Co. began at Main and Seventh. More than 150 years later the family-owned shop still pours, cuts, and ships from Iowa and Nebraska plants.",
-    "href": "/SCF/about.html",
-    "image": "/SCF/assets/news/heritage-foundry.svg"
+    "href": "/SCF/news-article.html?id=heritage-1871",
+    "image": "/SCF/assets/news/heritage-foundry.jpg",
+    "detail": {
+      "eyebrow": "Heritage",
+      "lead": "Sioux City Foundry Co. started in November 1871 on the corner of Main and Seventh streets in Sioux City, Iowa.",
+      "body": [
+        "From that corner shop the company grew into a family-owned One-Stop Metal Shop with Plant 1 in Sioux City, Iowa, and Plant 2 in South Sioux City, Nebraska.",
+        "Today the live divisions include warehouse steel, rebar, contract manufacturing, and iron castings. This sample article is a historical note for the Abrinsky/SCF redesign, not an official press release."
+      ],
+      "highlights": [
+        "Founded November 1871 in Sioux City",
+        "Family-owned leadership continuity",
+        "Two-plant footprint in Iowa and Nebraska"
+      ],
+      "asideTitle": "Related",
+      "asideLinks": [
+        { "label": "About this sample site", "href": "/SCF/about.html" },
+        { "label": "All news", "href": "/SCF/news.html" }
+      ],
+      "notes": "Sample heritage summary based on publicly stated company history. Confirm current plant details on the official site before quoting externally."
+    }
   },
   {
     "id": "manufacturing-marvels",
     "title": "Manufacturing Marvels historical spotlight",
     "date": "2015-06-01",
     "summary": "A past national media feature highlighted the foundry and metal shop story. Sample note: historical spotlight only, not a current campaign claim.",
-    "href": "/SCF/about.html",
-    "image": "/SCF/assets/news/manufacturing-blueprint.svg"
+    "href": "/SCF/news-article.html?id=manufacturing-marvels",
+    "image": "/SCF/assets/news/manufacturing-marvels.jpg",
+    "detail": {
+      "eyebrow": "Media history",
+      "lead": "Sioux City Foundry Co. was featured on Manufacturing Marvels, a national media spotlight on manufacturers.",
+      "body": [
+        "This sample article treats that appearance as a historical media note. It is not a claim about an active advertising campaign, certification program, or current partnership.",
+        "The Abrinsky/SCF redesign keeps media references claim-safe: past recognition can be mentioned without inventing present-day campaign status."
+      ],
+      "highlights": [
+        "Historical Manufacturing Marvels feature",
+        "National media spotlight on the shop",
+        "Presented here as past context only"
+      ],
+      "asideTitle": "Related",
+      "asideLinks": [
+        { "label": "Awards on About", "href": "/SCF/about.html" },
+        { "label": "All news", "href": "/SCF/news.html" }
+      ],
+      "notes": "Sample historical media note. Do not present Manufacturing Marvels as a current campaign claim without fresh confirmation."
+    }
   },
   {
     "id": "wine-on-the-wall",
     "title": "Wine On the Wall specialty line",
     "date": "2024-03-12",
     "summary": "Stainless wine storage systems remain available as a specialty product line alongside the four live metal divisions.",
-    "href": "https://www.wineonthewall.com",
-    "image": "/SCF/assets/news/stainless-specialty.svg"
+    "href": "https://abrinsky.github.io/WineOnTheWall/",
+    "image": "/SCF/assets/news/wine-on-the-wall.jpg",
+    "external": true,
+    "detail": {
+      "eyebrow": "Specialty line",
+      "lead": "Wine On the Wall is a stainless steel wine rack line rooted in Midwest steel manufacturing.",
+      "body": [
+        "The specialty line sits alongside the four live metal divisions and focuses on wall-mounted display for residential and commercial spaces.",
+        "This news card opens the Abrinsky sample redesign for Wine On the Wall rather than the official product site, so portfolio viewers can see both sample properties together."
+      ],
+      "notes": "Card image copied from the Wine On the Wall sample assets. Official product details live at wineonthewall.com."
+    }
   },
   {
     "id": "cfa-safety-2014",
     "title": "CFA Zero Lost Days Safety Award (2014)",
     "date": "2014-12-15",
     "summary": "Recognized by the Central Fabricators Association for zero lost days due to injury in 2014. Public award already listed on About.",
-    "href": "/SCF/about.html",
-    "image": "/SCF/assets/news/safety-shield.svg"
+    "href": "/SCF/news-article.html?id=cfa-safety-2014",
+    "image": "/SCF/assets/news/cfa-safety.png",
+    "detail": {
+      "eyebrow": "Safety recognition",
+      "lead": "In 2014, Sioux City Foundry Co. received the Central Fabricators Association Zero Lost Days Safety Award.",
+      "body": [
+        "The recognition was for zero lost days due to injury in 2014. It remains part of the public awards list used on this sample About page.",
+        "This article is a sample write-up of that historical award. It does not invent newer safety certifications or claim current-year award status."
+      ],
+      "highlights": [
+        "Central Fabricators Association award",
+        "Zero lost days due to injury in 2014",
+        "Listed among public company recognitions"
+      ],
+      "asideTitle": "Related",
+      "asideLinks": [
+        { "label": "About awards", "href": "/SCF/about.html" },
+        { "label": "All news", "href": "/SCF/news.html" }
+      ],
+      "notes": "Sample article for a publicly listed 2014 award. Confirm any newer safety claims through official company materials."
+    }
   },
   {
     "id": "sample-community",
     "title": "Sample: plants and community",
     "date": "2026-01-15",
-    "summary": "Sample placeholder. Edit or remove this entry in data/news.json. Use it as a template for plant tours, hiring drives, or local partnerships.",
-    "href": "/SCF/news.html",
-    "image": "/SCF/assets/news/community-plant.svg"
+    "summary": "Sample placeholder for plant tours, hiring drives, or local partnerships. Edit or remove this entry in data/news.json.",
+    "href": "/SCF/news-article.html?id=sample-community",
+    "image": "/SCF/assets/news/community-plant.jpg",
+    "detail": {
+      "eyebrow": "Sample template",
+      "lead": "Use this entry as a template when you want a local plant, hiring, or community story on the sample news strip.",
+      "body": [
+        "Sioux City Foundry Co. operates Plant 1 in Sioux City, Iowa, and Plant 2 in South Sioux City, Nebraska. Community-facing notes on this sample site should stay high level and claim-safe.",
+        "Replace the title, date, summary, image, and detail fields in data/news.json when you have a real announcement ready. Or delete the object to remove the card."
+      ],
+      "highlights": [
+        "Template for plant or community updates",
+        "Edit data/news.json to publish changes",
+        "Keep copy claim-safe and sample-labeled"
+      ],
+      "asideTitle": "Related",
+      "asideLinks": [
+        { "label": "Careers sample", "href": "/SCF/careers.html" },
+        { "label": "Contact", "href": "/SCF/contact.html" },
+        { "label": "All news", "href": "/SCF/news.html" }
+      ],
+      "notes": "Sample placeholder only. Not a real event announcement."
+    }
   }
 ]
