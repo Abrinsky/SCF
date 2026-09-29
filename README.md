@@ -22,6 +22,7 @@ This repository hosts a **sample marketing site redesign** for [Sioux City Found
 | About | `about.html` |
 | News | `news.html` |
 | Careers | `careers.html` |
+| Job detail | `job.html?id=...` |
 | Contact | `contact.html` |
 
 ## Stack
@@ -42,10 +43,10 @@ Dates sort newest first. Keep copy claim-safe (no invented certs or partnerships
 
 ## Editing jobs (JSON, Lasso-like publish flag)
 
-`careers.html` loads `/SCF/data/jobs.json` and shows **only** items with `"published": true`.
+`careers.html` loads `/SCF/data/jobs.json` and shows **only** items with `"published": true`. Each published title links to the ungated local detail route `/SCF/job.html?id=...`; the detail page reads the same JSON file.
 
 1. Open `data/jobs.json`.
-2. Add: `{ "id", "title", "department", "location", "type", "summary", "applyEmail" or "applyHref", "published", "posted?" }`.
+2. Add: `{ "id", "title", "department", "location", "type", "summary", "detailHref", "detail?", "applyEmail" or "applyHref", "published", "posted?" }`. Use `detailHref` like `/SCF/job.html?id=your-id`; `detail.overview` and `detail.focusAreas` seed the local sample page.
 3. Set `"published": true` to go live on the Careers page (sample stand-in for the FileMaker checkbox). Set `false` to hide without deleting.
 4. Commit and push to `main`.
 

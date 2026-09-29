@@ -795,3 +795,37 @@ tr:last-child td { border-bottom: 0; }
 @media (max-width: 960px) {
   .news-list-item { grid-template-columns: 1fr; gap: 0.35rem; }
 }
+
+/* Job detail pages */
+.job-title-link { color: #fff; }
+.job-title-link:hover { color: var(--ember-hot); }
+.job-detail-lead { max-width: 48rem; color: var(--steel-bright); font-size: 1.08rem; }
+.job-detail-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(16rem, 0.75fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+.job-detail-card {
+  background: linear-gradient(160deg, #1e2430, #161a22);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+}
+.job-detail-card h2 { color: #fff; }
+.job-detail-card h3 { color: #fff; margin-top: 1.75rem; }
+.sample-note {
+  margin: 1.75rem 0 0;
+  padding: 1rem 1.1rem;
+  border-left: 3px solid var(--ember);
+  background: rgba(232,121,47,0.08);
+}
+.job-detail-actions { position: sticky; top: calc(var(--nav-h) + 1rem); }
+.job-detail-actions .btn { width: 100%; margin: 0.35rem 0 1rem; }
+.job-detail-actions .job-posted { margin: 0.25rem 0 1rem; }
+.text-link { font-weight: 700; }
+
+@media (max-width: 960px) {
+  .job-detail-layout { grid-template-columns: 1fr; }
+  .job-detail-actions { position: static; }
+}

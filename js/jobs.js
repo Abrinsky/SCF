@@ -45,6 +45,10 @@
     };
   }
 
+  function detailLink(job) {
+    return job.detailHref || "/SCF/job.html?id=" + encodeURIComponent(job.id || "");
+  }
+
   function jobCard(job) {
     var link = applyLink(job);
     var target = link.external ? ' target="_blank" rel="noopener"' : "";
@@ -52,7 +56,7 @@
     return (
       '<article class="job-card">' +
         '<div class="job-card-top">' +
-          "<h3>" + escapeHtml(job.title || "Open role") + "</h3>" +
+          '<h3><a class="job-title-link" href="' + escapeHtml(detailLink(job)) + '">' + escapeHtml(job.title || "Open role") + "</a></h3>" +
           '<div class="job-tags">' +
             (job.department ? '<span class="job-tag">' + escapeHtml(job.department) + "</span>" : "") +
             (job.type ? '<span class="job-tag job-tag--type">' + escapeHtml(job.type) + "</span>" : "") +

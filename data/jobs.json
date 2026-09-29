@@ -6,6 +6,15 @@
     "location": "Sioux City, IA (Plant 1)",
     "type": "Full-time",
     "summary": "MIG/TIG welding on structural and fabricated assemblies. Sample listing for the redesign. Confirm openings on the official careers page before applying.",
+    "detailHref": "/SCF/job.html?id=welder-cm-001",
+    "detail": {
+      "overview": "This sample role represents welding work within Contract Manufacturing at Plant 1. The focus is MIG/TIG welding on structural and fabricated assemblies.",
+      "focusAreas": [
+        "MIG and TIG welding",
+        "Structural assemblies",
+        "Fabricated assemblies"
+      ]
+    },
     "applyEmail": "recruiting@siouxcityfoundry.com",
     "published": true,
     "posted": "2026-08-01"
@@ -17,6 +26,15 @@
     "location": "Sioux City, IA (Plant 1)",
     "type": "Full-time",
     "summary": "Cut, bend, and prep black and epoxy-coated reinforcing steel. Sample listing. Real roles are published through the company employment flow.",
+    "detailHref": "/SCF/job.html?id=rebar-fab-002",
+    "detail": {
+      "overview": "This sample role represents rebar production work at Plant 1. The focus is cutting, bending, and preparing black and epoxy-coated reinforcing steel.",
+      "focusAreas": [
+        "Cutting reinforcing steel",
+        "Bending reinforcing steel",
+        "Preparing black and epoxy-coated rebar"
+      ]
+    },
     "applyEmail": "recruiting@siouxcityfoundry.com",
     "published": true,
     "posted": "2026-07-20"
@@ -28,6 +46,15 @@
     "location": "South Sioux City, NE (Plant 2)",
     "type": "Full-time",
     "summary": "Support green sand and no-bake molding and melt floor work for gray and ductile iron. Sample listing for demo purposes only.",
+    "detailHref": "/SCF/job.html?id=foundry-molder-003",
+    "detail": {
+      "overview": "This sample role represents foundry support work at Plant 2. The focus is green sand and no-bake molding support and melt floor work for gray and ductile iron.",
+      "focusAreas": [
+        "Green sand molding support",
+        "No-bake molding support",
+        "Melt floor work for gray and ductile iron"
+      ]
+    },
     "applyHref": "https://www.siouxcityfoundry.com/employ.lasso",
     "published": true,
     "posted": "2026-09-01"
@@ -39,6 +66,7 @@
     "location": "Sioux City, IA (Plant 1)",
     "type": "Full-time",
     "summary": "Unpublished example. Set published to true when this role should appear on Careers. Approximates the FileMaker checkbox go-live pattern.",
+    "detailHref": "/SCF/job.html?id=warehouse-picker-004",
     "applyEmail": "recruiting@siouxcityfoundry.com",
     "published": false,
     "posted": "2026-09-10"
